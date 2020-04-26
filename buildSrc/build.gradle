@@ -7,3 +7,7 @@ repositories {
 dependencies {
     implementation 'com.android.tools.build:apksig:3.5.1'
 }
+
+plugins {
+  id "org.sonarqube" version "2.7"
+}
